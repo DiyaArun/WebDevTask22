@@ -1,0 +1,99 @@
+body
+{
+    font-family: Helvetica;
+    background-color: beige;
+}
+.about
+{
+    position: relative;
+    display: inline;
+    text-align: end;
+}
+.about a 
+{
+    font-size: 10px;
+    text-align: end;
+    text-decoration: none;
+}
+.about a div span
+{
+    text-decoration: none;
+    color: black;
+}
+.about a div img
+{
+    border-radius: 100%;
+    max-width: 20px;
+}
+.about :hover
+{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+#searchbar
+{
+    margin: 20px 15%;
+    padding: 5px;
+    border-radius: 10px;
+}
+input[type=text]
+{
+     width: 70%;
+     -webkit-transition: width 0.15s ease-in-out;
+     transition: width 0.15s ease-in-out;
+}
+input[type=text]:focus
+{
+    border-style: dashed;
+    border-color: lightskyblue;
+}
+.listing ul
+{
+    background-color:whitesmoke;
+    margin: auto;
+    padding: 5%;
+}
+.listing li
+{
+    display: inline-block;
+    list-style-type: none;
+    width: 160;
+    margin: 7px;
+    padding: 3px;
+    position: relative;
+    background-color: lightgrey;
+    border: black;
+
+}
+.listing li div img
+{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    padding: 10px 2px;
+}
+.listing li a div strong h6:hover
+{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+.listing li a div
+{
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+}
+.listing li a div h6
+{
+    text-align: center;
+    color: black;
+    margin: 2px;
+    padding: 1px;
+}
+.listing li a div h6
+{
+    text-align: center;
+    color: black;
+    margin: 2px;
+    padding: 1px;
+}

@@ -1,0 +1,64 @@
+body
+{
+    font-family: Helvetica;
+    background-color: whitesmoke;
+}
+.home
+{
+    align-items: left;
+}
+.home img
+{
+    position: relative;
+    max-width: 20px;
+}
+.heading
+{   
+    position: relative;
+    align-items: initial;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+.heading img
+{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+.details
+{
+    text-align: justify;
+    font-size: 0.8em;
+}
+.details strong
+{
+    text-decoration: underline;
+}
+.images ul
+{
+    display: inline-block;
+    width: 100%;
+    margin: 10px;
+    padding: 2px;
+}
+.images ul li
+{
+    align-items: left;
+    display: inline-block;
+    list-style-type: none;
+    width:200px;
+    margin: 20px;
+    padding: 5px;
+    position: relative;
+}
+.images ul li img
+{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+.images li:hover
+{
+    top: -4px;
+}

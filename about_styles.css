@@ -1,0 +1,55 @@
+body
+{
+    font-family: Helvetica;
+    background-color: beige;
+}
+.home
+{
+    align-items: left;
+}
+.home a
+{
+    text-decoration: none;
+    text-decoration-color: black;
+    display: inline-block;
+    font-size: 5px;
+}
+.home img
+{
+    max-width: 20px;
+}
+.heading
+{   
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.heading img
+{
+    display: inline-block;
+    position: relative;
+    align-items: center;
+    border-radius: 100%;
+    width: 40%;
+}
+.heading h1
+{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+.info
+{
+    background-color: whitesmoke;
+    position: relative;
+    display: inline-block;
+    margin: 30px;
+    padding: 15px;
+    font-size: 0.8em;
+    width: auto;
+    align-items: center;
+    text-align: center;
+}
